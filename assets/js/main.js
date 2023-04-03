@@ -34,6 +34,7 @@ $("#repearicon").on("click", function () {
 //Filter 
 var $box = $(".isotope-box").isotope({
 	itemSelector: ".isotope-item"
+
 });
 $(".isotope-toolbar").on("click", "button", function () {
 	var filterValue = $(this).attr("data-type");
