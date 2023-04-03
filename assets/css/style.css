@@ -74,11 +74,20 @@ body {
   border-radius: 15px;
 }
 
+.phone-n {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .phonenumber {
   display: flex;
   flex-direction: column;
   align-items: end;
   line-height: 20px;
+  margin-left: 1rem;
 }
 
 .btn-signup {
@@ -90,7 +99,7 @@ body {
   display: block;
   color: white;
   height: 60px;
-  font-size: 12px;
+  font-size: 14px;
   padding: 1rem;
   box-shadow: 5px 8px 30px -15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -789,6 +798,23 @@ body {
   font-size: 12px;
 }
 
+.social-link {
+  transition: all 0.5s ease-in-out;
+}
+
+.social-link:hover {
+  transform: rotate(10deg);
+}
+
+.f-links {
+  color: white;
+  text-decoration: none;
+}
+
+.f-links:hover {
+  color: #FAAF40;
+}
+
 .footer-desc-box {
   background: #609CDB;
   padding: 1rem;
@@ -858,6 +884,15 @@ body {
     Responsive 
 */
 @media screen and (max-width: 992px) {
+  .btn-signups {
+    background-color: #4CAF50;
+    padding: 1rem;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .btn-signups:hover {
+    color: white !important;
+  }
   .btn-phone {
     display: none;
   }

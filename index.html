@@ -31,15 +31,14 @@
         </div>
         <div class="col-lg-2">
           <a href="#card" class="btn-card-desktop btn-hover">
-            <span>سبد درخواست</span>
-            <span>
+            <span>سبد درخواست
               <img src="./assets/media/images/shopping-cart.svg">
             </span>
           </a>
         </div>
         <div class="col-lg-2 ">
           <a href="#card" class="btn-phone btn-hover">
-            <div class="d-flex align-items-center justify-content-around">
+            <div class="phone-n">
               <span class="phonenumber ">
                 <span>021</span>
                 <span class="fw-bold">91014919</span>
@@ -49,7 +48,7 @@
           </a>
         </div>
         <div class="col-lg-2">
-          <a href="#sign" class=" btn-signup  btn-hover">
+          <a href="#sign" class="btn-signup  btn-hover">
             <span>ورود | ثبت نام </span>
           </a>
         </div>
@@ -70,6 +69,9 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav  mb-2 mb-lg-0 m-0 m-auto">
+              <li class="nav-item d-lg-none d-sm-block">
+                <a class="nav-link  btn-signups" aria-current="page" href="#"> ثبت نام | ورود</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link nav-text" aria-current="page" href="#">ابزار جراحی</a>
               </li>
@@ -880,11 +882,13 @@
                 <div class="d-flex justify-content-between">
                   <h6>راه های ارتباطی</h6>
                   <div class="d-flex justify-content-end">
-                    <a href="#telegram" class="px-2"><img src="./assets/media/images/socialmedia/aparat-icon.svg" /></a>
-                    <a href="#telegram" class="px-2"><img
+                    <a href="#telegram" class="px-2 social-link"><img
+                        src="./assets/media/images/socialmedia/aparat-icon.svg" /></a>
+                    <a href="#telegram" class="px-2 social-link"><img
                         src="./assets/media/images/socialmedia/telegram-icon.svg" /></a>
-                    <a href="#insta" class="px-2"><img src="./assets/media/images/socialmedia/insta-icon.svg" /></a>
-                    <a href="#whatsapp" class="px-2"><img
+                    <a href="#insta" class="px-2 social-link"><img
+                        src="./assets/media/images/socialmedia/insta-icon.svg" /></a>
+                    <a href="#whatsapp" class="px-2 social-link"><img
                         src="./assets/media/images/socialmedia/whatsapp-icon.svg" /></a>
                   </div>
                 </div>
@@ -918,27 +922,35 @@
                   <div>
                     <h6>دسترسی سریع</h6>
                     <ul class="contactus">
-                      <li>ورود و ثبت نام </li>
-                      <li>درباره ما</li>
-                      <li>همکاری با ما </li>
-                      <li>حریم خصوصی</li>
+                      <li><a href="#sign" class="f-links"> ورود و ثبت نام </a></li>
+                      <li><a href="#about" class="f-links">درباره ما</a></li>
+                      <li><a href="#colab" class="f-links">همکاری با ما </a></li>
+                      <li><a href="#privacy" class="f-links">حریم خصوصی</a></li>
                     </ul>
                   </div>
 
                   <div>
                     <h6>خدمات مشتریان</h6>
                     <ul class="contactus">
-                      <li>ثبت درخواست محصول</li>
-                      <li>ارتباط با مشاوران</li>
-                      <li>قوانین و مقررات می مد</li>
+                      <li><a href="#sumit" class="f-links">ثبت درخواست محصول</a></li>
+                      <li><a href="#contact" class="f-links"> ارتباط با مشاوران</a></li>
+                      <li><a href="#role" class="f-links">قوانین و مقررات می مد</a></li>
                     </ul>
                   </div>
 
                   <div>
                     <h6>گواهی های می مد</h6>
                     <ul class="contactus d-flex">
-                      <li class="px-3 footer-li-title"><img src="./assets/media/images/certificate1.svg"> </li>
-                      <li class="footer-li-title"><img src="./assets/media/images/certificate2.svg"> </li>
+                      <li class="px-3 footer-li-title">
+                        <a href="#c1">
+                          <img src="./assets/media/images/certificate1.svg">
+                        </a>
+                      </li>
+                      <li class="footer-li-title">
+                        <a href="#c2">
+                          <img src="./assets/media/images/certificate2.svg">
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
