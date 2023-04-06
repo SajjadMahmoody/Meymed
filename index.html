@@ -16,11 +16,17 @@
   <header>
     <div class="container">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-2 d-flex justify-content-between">
-          <img src="./assets/media/images/logo.png" class="logo" />
-          <a href="#card" class="btn btn-card-mobile">
-            <img src="./assets/media/images/cardicon.svg" />
-          </a>
+        <div class="col-lg-2">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <img src="./assets/media/images/logo.png" class="logo" />
+            </div>
+            <div class="card-mx">
+              <a href="#card" class="btn btn-card-mobile mx-5">
+                <img src="./assets/media/images/cardicon.svg" />
+              </a>
+            </div>
+          </div>
         </div>
 
         <div class="col-lg-4" id="search">
@@ -500,7 +506,7 @@
     <div class="container">
       <div class="d-flex justify-content-center mb-5 mt-5">
         <h3>جدیدترین محصولات</h3>
-        <div class="position-absolute mt-5">
+        <div class="position-absolute btn-arrow">
           <button class="swiper-button-next btn-swiper" tabindex="0" aria-label="Next slide"
             aria-controls="swiper-wrapper-6df0bb631798d5d10" aria-disabled="false"><i
               class='fas fa-arrow-left arrow-icon'></i></button>
@@ -514,7 +520,7 @@
 
         <div class="swiper productSwiper">
 
-          <div class="swiper-wrapper d-flex justify-content-center mt-4">
+          <div class="swiper-wrapper d-flex justify-content-center prodcuts-mx ">
             <div class="swiper-slide">
               <div class="product-box">
                 <img src="./assets/media/images/products/liquid.svg">
@@ -642,16 +648,16 @@
                 <h3 class="discount-title"> بیش از <span class="discount-number">30 درصد</span> تخفیف برای محصولات
                   برند رزمکس
                 </h3>
-                <p class="discount-desc"> محصولات نمونه برند رزمکس با تکنولوژی برتر و بالاترین کیفیت </p>
-                <div class="d-inline-block">
-                  <a href="#more" class="btn-discount">
-                    مشاهده بیشتر
-                  </a>
-                </div>
               </div>
               <div>
-                <img src="./assets/media/images/RM_Logo_wo_Slogan 1.svg">
+                <img src="./assets/media/images/RM_Logo_wo_Slogan 1.svg" class="logo-discount">
               </div>
+            </div>
+            <p class="discount-desc"> محصولات نمونه برند رزمکس با تکنولوژی برتر و بالاترین کیفیت </p>
+            <div class="d-inline-block">
+              <a href="#more" class="btn-discount">
+                مشاهده بیشتر
+              </a>
             </div>
           </div>
         </div>
@@ -667,7 +673,7 @@
         <h3 class="customer-title">برخی از مشتریان ما</h3>
         <p class="customer-desc">تامین منافع مشتری از جمله اهداف مهم شرکت می مد می باشد
           و باعث افتخار ماست که توانسته ایم با کیفیت و توانایی های خود رضایت مشتریان خود را جلب کنیم .</p>
-        <div class="position-absolute mt-5">
+        <div class="position-absolute btn-arrow">
           <button class="swiper-button-next btn-swiper" tabindex="0" aria-label="Next slide"
             aria-controls="swiper-wrapper-6df0bb631798d5d10" aria-disabled="false"><i
               class='fas fa-arrow-left arrow-icon'></i></button>
@@ -702,7 +708,7 @@
                 <img src="./assets/media/images/cutomers/Emam-Khomeyni-Hospital-Logo.svg">
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide h-auto">
               <div class="customer-box">
                 <img src="./assets/media/images/cutomers/logo-milad-tower.svg">
               </div>
@@ -920,7 +926,7 @@
                 <div class="d-flex justify-content-between">
 
                   <div>
-                    <h6>دسترسی سریع</h6>
+                    <h6 class="f-title">دسترسی سریع</h6>
                     <ul class="contactus">
                       <li><a href="#sign" class="f-links"> ورود و ثبت نام </a></li>
                       <li><a href="#about" class="f-links">درباره ما</a></li>
@@ -930,7 +936,7 @@
                   </div>
 
                   <div>
-                    <h6>خدمات مشتریان</h6>
+                    <h6 class="f-title">خدمات مشتریان</h6>
                     <ul class="contactus">
                       <li><a href="#sumit" class="f-links">ثبت درخواست محصول</a></li>
                       <li><a href="#contact" class="f-links"> ارتباط با مشاوران</a></li>
@@ -939,7 +945,7 @@
                   </div>
 
                   <div>
-                    <h6>گواهی های می مد</h6>
+                    <h6 class="f-title">گواهی های می مد</h6>
                     <ul class="contactus d-flex">
                       <li class="px-3 footer-li-title">
                         <a href="#c1">

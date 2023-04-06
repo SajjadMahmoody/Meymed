@@ -9,26 +9,26 @@ $(window).resize(function () {
 $("#orgicon").on("click", function () {
 	$("#boxtitle").text("سازمانی");
 	$("#boxtitle").text("سازمانی");
-	$("#change").attr("src", "../assets/media/images/emojione_hospital.svg");
+	$("#change").attr("src", "./../assets/media/images/emojione_hospital.svg");
 
 });
 $("#priceicon").on("click", function () {
 	$("#boxtitle").text("استعلام قیمت");
-	$("#change").attr("src", "../assets/media/images/Callforprice-icon.svg");
+	$("#change").attr("src", "./../assets/media/images/Callforprice-icon.svg");
 });
 $("#demoicon").on("click", function () {
 	$("#boxtitle").text("درخواست دمو");
-	$("#change").attr("src", "../assets/media/images/Request a demo-icon.svg");
+	$("#change").attr("src", "./../assets/media/images/Request a demo-icon.svg");
 });
 $("#serviceicon").on("click", function () {
 	$("#boxtitle").text("درخواست خدمات ");
-	$("#change").attr("src", "../assets/media/images/Service request-icon.svg");
+	$("#change").attr("src", "./../assets/media/images/Service request-icon.svg");
 
 
 });
 $("#repearicon").on("click", function () {
 	$("#boxtitle").text("درخواست تعمیرات ");
-	$("#change").attr("src", "../assets/media/images/Request for repairs-icon.svg");
+	$("#change").attr("src", "./../assets/media/images/Request for repairs-icon.svg");
 });
 
 //Filter 
@@ -54,20 +54,25 @@ var footerCarouselSwiper = new Swiper('.mySwiper', {
 	noSwiping: false,
 	allowSlidePrev: false,
 	allowSlideNext: false,
-	speed: 600,
-	autoplay: false,
 	keyboard: false,
 	breakpoints: {
 		320: {
-			slidesPerView: 1,
-			spaceBetween: 3,
+			slidesPerView: 2,
+			spaceBetween: 15,
 			noSwiping: true,
 			allowSlidePrev: true,
 			allowSlideNext: true
 		},
-		480: {
-			slidesPerView: 2,
-			spaceBetween: 10,
+		640: {
+			slidesPerView: 4,
+			spaceBetween: 15,
+			noSwiping: true,
+			allowSlidePrev: true,
+			allowSlideNext: true
+		},
+		768: {
+			slidesPerView: 4,
+			spaceBetween: 15,
 			noSwiping: true,
 			allowSlidePrev: true,
 			allowSlideNext: true
@@ -75,6 +80,14 @@ var footerCarouselSwiper = new Swiper('.mySwiper', {
 
 		992: {
 			slidesPerView: 6,
+			spaceBetween: 17,
+			noSwiping: false,
+			allowSlidePrev: false,
+			allowSlideNext: false
+		},
+		1200: {
+			slidesPerView: 6,
+			spaceBetween: 10,
 			noSwiping: false,
 			allowSlidePrev: false,
 			allowSlideNext: false
