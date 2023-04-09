@@ -256,6 +256,10 @@ body {
   align-items: center;
 }
 
+.isotope-box {
+  height: 617.438px;
+}
+
 .isotope-toolbar {
   flex-direction: row;
 }
