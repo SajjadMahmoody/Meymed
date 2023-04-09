@@ -477,6 +477,7 @@ body {
 .discount-title {
   font-style: normal;
   font-weight: 700;
+  font-size: clamp(12px, 1vw, 24px);
   font-size: 24px;
   line-height: 29px;
   text-align: right;
@@ -498,7 +499,7 @@ body {
 .discount-desc {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: clamp(12px, 1vw, 16px);
   line-height: 28px;
   text-align: right;
   color: #000000;
@@ -512,12 +513,13 @@ body {
   font-weight: 800;
   font-size: 36px;
   color: #FFFFFF;
+  margin-bottom: 1rem;
 }
 
 .countdown-desc {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: clamp(12px, 1vw, 16px);
   color: #FFFFFF;
   text-align: center;
 }
@@ -1129,5 +1131,30 @@ body {
 
   .new-email-text {
     font-size: 12px;
+  }
+
+  .countdown-desc {
+    font-weight: normal;
+  }
+
+  .discount-dir {
+    flex-direction: column;
+  }
+
+  #js-days:after,
+  #js-hours:after,
+  #js-minutes:after,
+  #js-seconds:after {
+    content: "روز";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .countdown-container {
+    position: absolute;
+    top: 25%;
   }
 }
