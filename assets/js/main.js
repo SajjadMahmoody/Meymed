@@ -33,6 +33,7 @@ $("#repearicon").on("click", function () {
 
 //Filter 
 var $box = $(".isotope-box").isotope({
+	originLeft: false,
 	itemSelector: ".isotope-item"
 
 });
